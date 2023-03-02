@@ -1,0 +1,46 @@
+.main{
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container{
+    padding: 100px 50px;
+}
+.container div{
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background-color: #c8c5c1;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+h2:last-child{
+    padding: 20px 0;
+}
+h2:nth-child(3){
+    color: red;
+}
+h2:nth-child(2){
+    font-size: 26px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: teal;
+    font-size: 20px;
+    font-weight: 400;
+    border: 3px solid teal;
+    padding: 3px 20px;
+    margin-bottom: 10px;
+}
+a:hover{
+    background-color: teal;
+    color: white;
+}
